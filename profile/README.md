@@ -2,7 +2,9 @@
 
 The nflverse is a set of packages dedicated to data and analysis of the National Football League.
 
-Most data is stored in releases of the [nflverse/nflverse-data](https://github.com/nflverse/nflverse-data) repository, in various formats (csv, parquet, rds, qs being the primary ones). 
+Most data is stored in releases of the [nflverse/nflverse-data](https://github.com/nflverse/nflverse-data) repository, in various formats (csv, parquet, rds, qs being the primary ones). These can be accessed by any platform or programming language via the web URLs. 
+
+We also maintain a set of R packages to facilitate access to this data and apply modelling.
 
 ## R Packages
 
