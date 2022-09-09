@@ -50,12 +50,8 @@ body:
     
 - type: textarea
   attributes:
-    label: screenshots
+    label: Screenshots
     description: If applicable/helpful for your problem
-    value: |
-        - OS:
-        - Node:
-        - npm:
     render: markdown
   validations:
     required: false
