@@ -16,6 +16,13 @@ body:
     options:
     - label: I have installed the latest development version of the package. 
       required: true
+
+- type: input
+  attributes:
+    label: What version of the package do you have?
+    description: Use `packageVersion("packagename")` to print out the current version.
+  validations:
+      required: true
       
 - type: textarea
   attributes:
@@ -27,6 +34,7 @@ body:
 - type: textarea
   attributes:
     label: Reprex
+    render: r
     description: | 
       Please provide a short, reproducible example of the code you're trying to run. 
       For more on reprexes, check out https://reprex.tidyverse.org
@@ -44,6 +52,7 @@ body:
   attributes:
     label: nflverse_sitrep
     description: Please copy the output of `nflverse_sitrep()` AFTER running the reprex example locally
+    render: r
   validations:
     required: true
     
