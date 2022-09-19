@@ -1,5 +1,5 @@
-name: 🐞 Bug Report
-description: File a bug/issue
+name: 🐞 Report a Bug
+description: Report a bug/issue
 title: "[BUG] <title>"
 body:
 - type: checkboxes
@@ -9,10 +9,11 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
+      
 - type: checkboxes
   attributes:
     label: Have you installed the latest development version of the package(s) in question?
-    description: (Use `nflverse::nflverse_update(devel = TRUE)` to do this efficiently.
+    description: Use `nflverse::nflverse_update(devel = TRUE)` to do this efficiently.
     options:
     - label: I have installed the latest development version of the package. 
       required: true
