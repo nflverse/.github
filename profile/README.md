@@ -17,6 +17,8 @@ We also maintain a set of R packages to facilitate access to this data and apply
 
 ## Support
 
-In most cases you should reach out to us on Discord: [![nflverse
+In most cases you should reach out to us on Discord: 
+
+[![nflverse
 support](https://img.shields.io/discord/789805604076126219?color=7289da&label=nflverse%20support&logo=discord&logoColor=fff&style=flat-square)](https://discord.com/invite/5Er2FBnnQa)
 
