@@ -10,7 +10,8 @@ We also maintain a set of R packages to facilitate access to this data and apply
 
 - [`{nflverse}`](https://github.com/nflverse/nflverse) helps install and update all nflverse R packages.
 - [`{nflreadr}`](https://github.com/nflverse/nflreadr) provides easy access to nflverse data repositories.
-- [`{nflfastR}`](https://github.com/nflverse/nflfastR) cleans play by play data and applies EPA/WPA modelling. Most users will want precomputed data, via `nflreadr`.
+- [`{nflfastR}`](https://github.com/nflverse/nflfastR) cleans play by play data and applies EPA/WPA modelling.
+  - Most users will want precomputed data, via `nflreadr`.
 - [`{nflplotR}`](https://github.com/nflverse/nflplotR) facilitates plotting NFL data.
 - [`{nfl4th}`](https://github.com/nflverse/nfl4th) studies fourth down decisions with nflverse data and models.
 - [`{nflseedR}`](https://github.com/nflverse/nflseedr) simulates NFL season schedules with the user's model.
