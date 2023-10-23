@@ -23,9 +23,10 @@ body:
     label: If this is a data issue, have you tried clearing your nflverse cache?
     description: Use `nflreadr::clear_cache()` to do this efficiently.
     options:
-    - label: I have cleared my nflverse cache and the issue persists.
-    - label: I am not using an nflverse R package (nflreadr, nflfastR) to access this data.
-    - label: This is not a data-related issue.
+      - I have cleared my nflverse cache and the issue persists.
+      - I am not using an nflverse R package (nflreadr, nflfastR) to access this data.
+      - This is not a data-related issue.
+  validations:
     required: true
 
 - type: input
@@ -49,8 +50,8 @@ body:
     description: | 
       Please provide a short, reproducible example of the code you're trying to run.
       For more on reprexes, check out https://reprex.tidyverse.org
-    validations:
-      required: true
+  validations:
+    required: true
     
 - type: textarea
   attributes:
