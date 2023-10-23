@@ -17,6 +17,17 @@ body:
     options:
     - label: I have installed the latest development version of the package. 
       required: true
+      
+- type: dropdown
+  attributes:
+    label: If this is a data issue, have you tried clearing your nflverse cache?
+    description: Use `nflreadr::clear_cache()` to do this efficiently.
+    options:
+    - label: I have cleared my nflverse cache and the issue persists.
+    - label: I am not using an nflverse R package (nflreadr, nflfastR) to access this data.
+    - label: This is not a data-related issue.
+    validations:
+      required: true
 
 - type: input
   attributes:
@@ -37,7 +48,7 @@ body:
     label: Reprex
     render: r
     description: | 
-      Please provide a short, reproducible example of the code you're trying to run. 
+      Please provide a short, reproducible example of the code you're trying to run.
       For more on reprexes, check out https://reprex.tidyverse.org
   validations:
     required: true
@@ -52,7 +63,9 @@ body:
 - type: textarea
   attributes:
     label: nflverse_sitrep
-    description: Please copy the output of `nflverse_sitrep()` AFTER running the reprex example locally
+    description: | 
+      Please copy the output of `nflverse_sitrep()` AFTER running the reprex example locally.
+      If the bug is not related to an R package, put NA.
     render: r
   validations:
     required: true
