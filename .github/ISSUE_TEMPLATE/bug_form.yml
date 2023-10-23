@@ -50,7 +50,6 @@ body:
     description: | 
       Please provide a short, reproducible example of the code you're trying to run.
       For more on reprexes, check out https://reprex.tidyverse.org
-  validations:
     required: true
     
 - type: textarea
