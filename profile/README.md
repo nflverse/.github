@@ -19,7 +19,7 @@ We also maintain a set of packages to facilitate access to this data and apply m
 ## Python Packages
 - [`nfl-data-py`](https://github.com/nflverse/nfl_data_py) provides easy access to nflverse data repositories in Python.
 
-## Julia packages
+## Julia Packages
 - [`NFLData.jl`](https://github.com/nflverse/NFLData.jl) provides easy access to nflverse data repositories in Julia.
 
 ## Support
