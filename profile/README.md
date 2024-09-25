@@ -4,7 +4,7 @@ The nflverse is a set of packages dedicated to data and analysis of the National
 
 Most data is stored in releases of the [nflverse/nflverse-data](https://github.com/nflverse/nflverse-data) repository, in various formats (csv, parquet, rds, qs being the primary ones). These can be accessed by any platform or programming language via the web URLs. 
 
-We also maintain a set of R packages to facilitate access to this data and apply modelling.
+We also maintain a set of packages to facilitate access to this data and apply modelling.
 
 ## R Packages
 
@@ -15,6 +15,12 @@ We also maintain a set of R packages to facilitate access to this data and apply
 - [`{nflplotR}`](https://github.com/nflverse/nflplotR) facilitates plotting NFL data.
 - [`{nfl4th}`](https://github.com/nflverse/nfl4th) studies fourth down decisions with nflverse data and models.
 - [`{nflseedR}`](https://github.com/nflverse/nflseedr) simulates NFL season schedules with the user's model.
+
+## Python Packages
+- [`nfl-data-py`](https://github.com/nflverse/nfl_data_py) provides easy access to nflverse data repositories in Python.
+
+## Julia packages
+- [`NFLData.jl`](https://github.com/nflverse/NFLData.jl) provides easy access to nflverse data repositories in Julia.
 
 ## Support
 
