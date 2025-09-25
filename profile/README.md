@@ -18,7 +18,6 @@ We also maintain a set of packages to facilitate access to this data and apply m
 
 ## Python Packages
 - [`nflreadpy`](https://github.com/nflverse/nflreadpy) ports nflreadr to Python and provides easy, lightweight access to nflverse data repositories.
-- [`nfl-data-py`](https://github.com/nflverse/nfl_data_py) is an legacy package that aims to provide nflverse data access.
 
 ## Julia Packages
 - [`NFLData.jl`](https://github.com/nflverse/NFLData.jl) provides easy access to nflverse data repositories in Julia.
